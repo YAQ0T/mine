@@ -1,0 +1,19 @@
+.navBar {
+  font-size: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.leftNav {
+  width: 35vw;
+  margin-left: 7vw;
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  padding: 0.2vw;
+}
+.rightNav {
+  margin-left: 10vw;
+  width: 35vw;
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  padding: 0.2vw;
+}

@@ -1,0 +1,30 @@
+.mainHeader {
+  display: grid;
+  margin-top: 5vh;
+  grid-template-columns: 2fr 4fr 2fr;
+}
+
+.logo > img {
+  width: 60%;
+  align-self: center;
+}
+.searchBar {
+  display: grid;
+  grid-template-columns: 0.5fr 6fr;
+  height: 5vh;
+  width: 40vw;
+  align-self: center;
+  margin-left: 15vw;
+}
+
+.myCart {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-self: center;
+  margin-left: 9vw;
+}
+.myCart > #icon {
+  font-size: 1.5vw;
+  text-align: center;
+  align-self: center;
+}
