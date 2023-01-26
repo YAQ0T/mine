@@ -1,0 +1,17 @@
+#imgContainer {
+  width: 60vw;
+  height: 50vh;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 0.5s;
+  transform: scale(1.08);
+}
+.slide.active {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: scale(1.08);
+}
+#b1 {
+}

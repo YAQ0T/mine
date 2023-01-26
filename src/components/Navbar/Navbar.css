@@ -2,18 +2,25 @@
   font-size: 1vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: 1.5vh;
+  margin-right: 2vw;
 }
 .leftNav {
   width: 35vw;
-  margin-left: 7vw;
+  margin-right: 7vw;
   display: grid;
-  grid-template-columns: repeat(6, 0.5fr);
+  grid-template-columns: repeat(6, 5fr);
   padding: 0.2vw;
 }
 .rightNav {
   margin-left: 10vw;
   width: 35vw;
   display: grid;
-  grid-template-columns: repeat(6, 0.5fr);
+  grid-template-columns: repeat(6, 1fr);
   padding: 0.2vw;
+}
+a {
+  text-decoration: none;
+  color: var(--main-color);
+  width: 7vw;
 }

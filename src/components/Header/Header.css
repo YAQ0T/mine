@@ -1,6 +1,7 @@
 .mainHeader {
   display: grid;
   margin-top: 5vh;
+  margin-right: 8vw;
   grid-template-columns: 2fr 4fr 2fr;
 }
 
@@ -10,16 +11,24 @@
 }
 .searchBar {
   display: grid;
-  grid-template-columns: 0.5fr 6fr;
+  grid-template-columns: 6fr 0.5fr;
   height: 5vh;
   width: 40vw;
   align-self: center;
   margin-left: 15vw;
 }
-
+#searchButton {
+  background-color: #845808;
+  border-color: #845808;
+  cursor: pointer;
+}
+#searchIcon {
+  font-size: x-large;
+  color: #fefefe;
+}
 .myCart {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 2fr 1fr;
   align-self: center;
   margin-left: 9vw;
 }
@@ -27,4 +36,5 @@
   font-size: 1.5vw;
   text-align: center;
   align-self: center;
+  color: #845808;
 }

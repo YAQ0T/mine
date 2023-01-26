@@ -1,0 +1,23 @@
+.mainList {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  height: 25vh;
+  margin-right: 2vw;
+  width: 12vw;
+  margin-top: 6vh;
+  border: 1px solid #dddddd;
+}
+
+.title {
+  font-size: larger;
+  padding: 4%;
+}
+.catalogs {
+  margin-top: 2vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+a {
+  height: 2vh;
+  padding: 4%;
+}

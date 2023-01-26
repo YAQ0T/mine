@@ -8,18 +8,18 @@ export default class Header extends Component {
   render() {
     return (
       <div className="mainHeader">
-        <dev className="myCart">
-          <FontAwesomeIcon icon={faCartShopping} id="icon" />
-          <p>Shopping cart</p>
-        </dev>
-        <dev className="searchBar">
-          <button id="searchButton">
-            <FontAwesomeIcon icon={faSearch} />
-          </button>
-          <input type="text" id="searchBar" />
-        </dev>
         <dev className="logo">
           <img src={logoImg} alt="logo" />
+        </dev>
+        <dev className="searchBar">
+          <input type="text" id="searchBar" />
+          <button id="searchButton">
+            <FontAwesomeIcon icon={faSearch} id="searchIcon" />
+          </button>
+        </dev>
+        <dev className="myCart">
+          <p>Shopping cart</p>
+          <FontAwesomeIcon icon={faCartShopping} id="icon" />
         </dev>
       </div>
     );
